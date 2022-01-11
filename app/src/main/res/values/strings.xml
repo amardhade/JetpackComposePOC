@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HUddleMVP</string>
+    <string name="something_went_wrong">Unknown error</string>
+    <string name="inactive_contact_manager">Inactive contact manager</string>
+    <string name="inactive_contact_admin">Inactive contact admin</string>
+    <string name="email_address_not_registered">Email not registered.</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+    <string name="company_could_not_recognize_contact_admin">Company not recognize</string>
+    <string name="email_id_n_pwd_doesnt_match"><![CDATA[Email & Password doen not match]]></string>
+    <string name="not_associated_to_any_department">Email not associate to ant department</string>
+    <string name="not_associated_to_any_group">Email not associate to any Group</string>
+    <string name="password_has_been_reset">Password reset successfully.</string>
+    <string name="prblm_with_sending_email">Problem with sending email</string>
+</resources>

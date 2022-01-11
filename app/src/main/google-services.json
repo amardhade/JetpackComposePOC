@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "671854650783",
+    "firebase_url": "https://huddle-player-test.firebaseio.com",
+    "project_id": "huddle-player-test",
+    "storage_bucket": "huddle-player-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671854650783:android:10f2a375b81b340c",
+        "android_client_info": {
+          "package_name": "com.ionicframework.SaleshuddleApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671854650783-fj667j91ee0q9r2b38o4mu8k4mhred59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb9INEdCgbZbpWuNtJMnNYUE96tvZT0hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671854650783-fj667j91ee0q9r2b38o4mu8k4mhred59.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "671854650783-01sgeu89c8ivtqbae5srqlg1a2st7p22.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.thesaleshuddle.mobile",
+                "app_store_id": "1082613721"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

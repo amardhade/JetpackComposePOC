@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.huddlemvp.ui.auth.LoginFragment"
+        android:label="LOGIN_FRAGMENT"
+        tools:layout="@layout/login_fragment">
+        <action
+            android:id="@+id/navigateToSSOScreen"
+            app:destination="@id/ssoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ssoFragment"
+        android:name="com.huddlemvp.ui.auth.SSOFragment"
+        android:label="SSO_FRAGMENT"
+        tools:layout="@layout/sso_fragment">
+        <action
+            android:id="@+id/navigateToVIPScreen"
+            app:destination="@id/vipFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/vipFragment"
+        android:name="com.huddlemvp.ui.auth.VIPFragment"
+        android:label="VIP_FRAGMENT"
+        tools:layout="@layout/vip_fragment" >
+        <action
+            android:id="@+id/action_vipFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+</navigation>
